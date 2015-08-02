@@ -10,7 +10,7 @@
 * application/config/config.php，修改如下参数对应于你本地路径和项目名称
 ![配置图片](https://github.com/RedstoneCMX/Redstonemusic/blob/master/configimages/show1.png)
 * application/config/database.php，修改如下参数连接你的数据库
-![配置图片](https://github.com/RedstoneCMX/Redstonemusic/blob/master/configimages/show1.png)
+![配置图片](https://github.com/RedstoneCMX/Redstonemusic/blob/master/configimages/show2.png)
 
 ##功能说明
 * 本音乐分享平台将音乐分为五大类，分别为青春记忆，怀旧经典，情歌速递，励志天堂，英文金曲。
