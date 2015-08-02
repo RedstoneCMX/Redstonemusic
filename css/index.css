@@ -1,0 +1,243 @@
+body{
+	background:url(../image/backimg.png);
+	background-attachment:fixed;
+	background-repeat:repeat;
+	margin:0px;
+	padding:0px;
+	
+}
+.top_line{
+	background:#169fe6;
+	height:5px;
+	width:900px;
+	margin:auto;
+}
+
+.header{
+	height:150px;
+	width:900px;
+	margin:auto;
+	background:url(../image/header.png);
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=4);/*ie*/
+	-moz-box-shadow: 1px 1px 7px #909090;/*firefox*/
+	-webkit-box-shadow: 1px 1px 7px #909090;/*safari或chrome*/
+	box-shadow:1px 1px 7px #909090;/*opera或ie9*/
+}
+
+.main{
+	width:900px;
+	margin:auto;
+	background:#FFFFFF;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=4);/*ie*/
+	-moz-box-shadow: 1px 1px 7px #909090;/*firefox*/
+	-webkit-box-shadow: 1px 1px 7px #909090;/*safari或chrome*/
+	box-shadow:1px 1px 7px #909090;/*opera或ie9*/
+}
+
+.nav{
+	background:#169fe6;
+	width:900px;
+	height:40px;
+	margin:auto;
+}
+
+#menu{
+	font-size:14px;
+	height:40px;
+	padding:0;
+ 	margin:0;
+ 	font-family: 微软雅黑;
+
+}
+
+#menu li{
+	list-style-image: none;
+	list-style-type: none;
+	float:left;
+}
+#menu li a {
+ display:block;
+ width:100px;
+ height:40px;
+ line-height:40px;
+ text-align:center;
+ padding:0;
+ color:#FFFFFF;
+ border-right:1px solid #FFFFFF;
+ text-decoration:none;
+}
+
+#menu li a:hover {
+ background:#06d3eb;
+ color:#FFFFFF;
+ text-decoration:none;
+ border-right:1px solid #FFFFFF;
+ cursor:pointer;
+}
+
+.actived{
+	background:#06d3eb;
+ 	color:#FFFFFF;
+ 	text-decoration:none;
+ 	border-right:1px solid #FFFFFF;
+ 	cursor:pointer;
+}
+
+.mymusic{
+	width:900px;
+}
+
+.mytitle{
+	width:850px;
+	margin:auto;
+	color:#169fe6;
+}
+
+.music_title{
+	width:150px;
+	height:30px;
+	font-size:25px;
+	font-weight:bold;
+	float:left;
+}
+.play_setting{
+	height:25px;
+	line-height:25px;
+	float:left;
+	font-size:13px;
+	cursor:pointer;
+	margin-top:5px;
+}
+
+.mytitle a{
+	display:block;
+	width:80px;
+	height:25px;
+	line-height:25px;
+	float:left;
+	text-decoration:none;
+	cursor:pointer;
+	text-align:center;
+	transition:font-size 0.5s, color 0.5s;
+	-webkit-transition:font-size 0.5s, color 0.5s;
+}
+
+.mytitle a:hover{
+	display:block;
+	width:80px;
+	height:25px;
+	line-height:25px;
+	font-size:15px;
+	text-decoration:none;
+	cursor:pointer;
+	color:red;
+	text-align:center;
+}
+
+.play_setting_click{
+	height:25px;
+	line-height:25px;
+	font-size:15px;
+	float:left;
+	cursor:pointer;
+	color:red;
+}
+
+.music_content{
+	width:800px;
+	margin:auto;
+}
+.one_song{
+	width:800px;
+	height:220px;
+	margin:auto;
+}
+
+.one_song_first{
+	width:540px;
+	height:200px;
+	float:left;
+}
+
+.img_content{
+	width:200px;
+	height:200px;
+	float:right;
+}
+
+.singer{
+	float:left;
+	font-size:14px;
+}
+.look_lyric{
+	width:100px;
+	float:left;
+	font-size:14px;
+	cursor:pointer;
+	text-align:right;
+}
+
+.look_lyric_over{
+	width:100px;
+	float:left;
+	font-size:14px;
+	cursor:pointer;
+	color:#169fe6;
+	text-align:right;
+}
+
+
+
+.lyric{
+	width:250px;
+	margin:auto;
+	font-size:14px;
+}
+
+#close_lyric{
+	width:75px;
+	height:30px;
+	border:none;
+	background:#0074CC;
+	color:#FFFFFF;
+	cursor:pointer;
+	font-size:16px;
+}
+
+.download a{
+	color:#0074CC;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+	
+}
+
+.download a:hover{
+	color:#0074CC;
+	text-decoration:none;
+	font-size:15px;
+	font-weight:bold;
+}
+
+#cloud_div {
+	position:relative; 
+	width:350px; 
+	height:350px; 
+	margin: 15px auto 0; 
+}
+#cloud_div a {
+	position:absolute; 
+	top:0px; 
+	left:0px; 
+	font-family: Microsoft YaHei; 
+	color:#000; 
+	font-weight:bold; 
+	text-decoration:none; 
+	padding: 3px 6px; 
+	}
+
+
+#cloud_div a:hover {border: 1px solid #eee; background: #FFF; }
+#cloud_div .blue {color:blue;}
+#cloud_div .red {color:red;}
+#cloud_div .green {color:green;}

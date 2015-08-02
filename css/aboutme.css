@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+.aboutme{
+	width:500px;
+	height:0px;
+	background:#EDEDED;
+	margin:auto;
+	font-size:15px;
+	font-family: 微软雅黑;
+}
+
+.aboutme h2{
+	text-align:right;
+	color:red;
+}
+
+.about_content{
+	width:480px;
+	margin:auto;
+}
+.myphoto{
+	float: left;
+}
+.myinfo{
+	float: left;
+	width: 360px;
+	margin-left: 5px;
+	text-align: justify;
+	line-height: 17px;
+	font-size: 12px;
+}
